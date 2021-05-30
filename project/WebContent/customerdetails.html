@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CUSTOMER FORM</title>
+	<link rel="stylesheet" type="text/css" href="registerstyle.css">
+	<link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0">
+</head>
+<body>
+	<div class="container">
+		<div class="contact-box">
+			<div class="left"></div>
+			<div class="right">
+				<h2> REGISTRATION FORM</h2>
+				<form method="post" action="details">
+					<input type="text" class="field" placeholder="First Name" name="fullname" required>
+				<input type="email" class="field" placeholder="Your Email" name= "email" required>
+					<textarea  class="field" name="address" placeholder="Address" required></textarea>
+				<input type="text" class="field" placeholder="Your mobile" name="pnumber" minlength="10" maxlength="10" required>
+                 <button type="submit" class="btn" id="button1">Register</button>
+					<button type="reset" class="btn" name="Reset" id="button2">Cancel </button>
+
+					</form>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

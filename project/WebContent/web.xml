@@ -1,0 +1,13 @@
+<web-app>  
+  
+<servlet>  
+<servlet-name>search</servlet-name>  
+<servlet-class>search</servlet-class>  
+</servlet>  
+  
+<servlet-mapping>  
+<servlet-name>search</servlet-name>  
+<url-pattern>search</url-pattern>  
+</servlet-mapping>  
+  
+</web-app>  

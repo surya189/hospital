@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html>
+<title>PASSENGER MANAGMENT</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<div class="w3-container">
+<hr>
+
+</div>
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+body, html {
+  height: 100%;
+  color: black;
+  line-height:1.8;
+}
+
+
+
+/* Create a Parallax Effect */
+
+.bgimg-1, .bgimg-2, .bgimg-3 {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* First image (Logo. Full height) */
+.bgimg-1 {
+  background-image: url("https://wallpapercave.com/wp/lQGF8gN.jpg");
+  min-height: 100%;
+}
+
+/* Second image (Portfolio) */
+.bgimg-2 {
+  background-image: url("https://www.99images.com/photos/wallpapers/cars-bikes/vw-busandroid-iphone-desktop-hd-backgrounds-wallpapers-1080p-4k-jacxd.jpg?v=1582042984");
+  min-height: 400px;
+}
+
+/* Third image (Contact) */
+.bgimg-3 {
+  background-image: url("https://wallpaperaccess.com/full/3124511.jpg");
+  min-height: 400px;
+}
+
+.w3-wide {letter-spacing: 10px;}
+.w3-hover-opacity {cursor: pointer;}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1600px) {
+ 
+}
+    bigimg-3{
+    background-attachment:scroll;
+    min-height:400;}
+    bigimg-2{
+    background-attachment:scroll;
+    min-height:400;}
+    bigimg-1{
+    background-attachment:scroll;
+    min-height:400;}
+ 
+
+</style>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar" id="myNavbar">
+    <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+      <i class="fa fa-bars"></i>
+    </a>
+    <a href="#home" class="w3-bar-item w3-button">HOME</a>
+    <a href="#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> ABOUT</a>
+    <a href="#portfolio" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> PORTFOLIO</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> CONTACT</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red">
+    <a href="login.html" class="w3-button w3-light">LOGOUT</a>
+      
+    </a>
+    
+  </div>
+<style>
+a{
+  float: right;
+}
+</style>
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+    <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT</a>
+    <a href="#portfolio" class="w3-bar-item w3-button" onclick="toggleFunction()">PORTFOLIO</a>
+    <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
+    <a href="#" class="w3-bar-item w3-button">SEARCH</a>
+  </div>
+</div>
+
+<!-- First Parallax Image with Logo Text -->
+<div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
+  <div class="w3-display-middle" style="white-space:narrowrap;">
+    
+  </div>
+</div>
+
+<!-- Container (About Section) -->
+<div class="w3-content w3-container w3-padding-64" id="about">
+  <h3 class="w3-center",font="bold";>ABOUT US</h3>
+  <p class="w3-center"><em>a memoriable magic ride</em></p>
+  <p>Our system is an integrated service which utilizes tracking data from vehicles to estimate departure and arrival time. ... This multi-channel commuter interface enables quick access to transport system and ensure citizens see the city transit system as safe and reliable alternative for their travel.
+</p>
+  <div class="w3-row">
+    <div class="w3-col m6 w3-center w3-padding-large">
+      <p><b><i class="fa fa-user w3-margin-right"></i>My Name</b></p><br>
+      <img src="https://images.unsplash.com/photo-1503220317375-aaad61436b1b?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTF8fHxlbnwwfHx8&w=1000&q=80" width="400" height="256">
+    </div>
+
+    <!-- Hide this text on small devices -->
+    <div class="w3-col m6 w3-hide-small w3-padding-large">
+      <p>Welcome to my website. This our team we are ready to help you and we are connected to wide area of network so you can travel to any place in your country by a comfartable ride provided by us and also we are going to give best offers to the new coustmers.so, what are you waiting for go and login and give your details and choose your destination to get an advantureos ride contact us to get more benifits.
+Get connected to our services for more updates we are focusing on the issue with a long journey rides {long journey in less time}, and we are giving free ticket for a single ride after your three rides and we have most experienced drivers they can reach you to your destination on time. </p>
+    </div>
+  </div>
+  <p class="w3-large w3-center w3-padding-16">We are really good at:</p>
+  <p class="w3-wide"><i class="fa fa-car"></i>Comfortable ride</p>
+  <div class="w3-light-grey">
+    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:98%">98%</div>
+  </div>
+  <p class="w3-wide"><i class="fa fa-laptop"></i>World Wide Connection</p>
+  <div class="w3-light-grey">
+    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:92%">92%</div>
+  </div>
+  <p class="w3-wide"><i class="fa fa-star"></i>Passenger Safety</p>
+  <div class="w3-light-grey">
+    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:100%">100%</div>
+  </div>
+</div>
+
+<div class="w3-row w3-center w3-dark-grey w3-padding-16">
+  <div class="w3-quarter w3-section">
+    <span class="w3-xlarge">14+</span><br>
+    Partners
+  </div>
+  <div class="w3-quarter w3-section">
+    <span class="w3-xlarge">550K+</span><br>
+    Projects Done
+  </div>
+  <div class="w3-quarter w3-section">
+    <span class="w3-xlarge">890K+</span><br>
+    Happy Clients
+  </div>
+  <div class="w3-quarter w3-section">
+    <span class="w3-xlarge">1500+</span><br>
+    Meetings
+  </div>
+</div>
+
+<!-- Second Parallax Image with Portfolio Text -->
+<div class="bgimg-2 w3-display-container w3-opacity-min">
+  <div class="w3-display-middle">
+    <span class="w3-xxlarge w3-text-white w3-wide">PORTFOLIO</span>
+  </div>
+</div>
+
+<!-- Container (Portfolio Section) -->
+<div class="w3-content w3-container w3-padding-64" id="portfolio">
+  <h3 class="w3-center">OUR NEW MODELS</h3>
+  <p class="w3-center"><em>Here are some of our latest works.<br> Click on the images to make them bigger</em></p><br>
+
+  <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
+  <div class="w3-row-padding w3-center">
+    <div class="w3-col m3">
+      <img src="https://pixelz.cc/wp-content/uploads/2018/08/porsche-911-gt2-rs-uhd-4k-wallpaper.jpg" style="width:100%" href="/details">
+   <a class="btn" href="customerdetails.html">car1</a>
+    </div>
+
+    <div class="w3-col m3">
+      <img src="https://cdn.allwallpaper.in/wallpapers/2400x1350/4842/lamborghini-aventador-automobiles-cars-speed-2400x1350-wallpaper.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Coffee beans">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="https://s1.1zoom.me/b5763/308/BMW_Roads_7_series_G11_G12_Motion_Grey_Metallic_586342_1920x1080.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Quiet Ocean">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="https://wallpaperaccess.com/full/2429575.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="red guy">
+    </div>
+  </div>
+
+  <div class="w3-row-padding w3-center w3-section">
+   
+
+    <div class="w3-col m3">
+      <img src="https://cdn.wallpapersafari.com/61/33/aLIAm9.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="My beloved type">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="https://images.hdqwalls.com/download/porsche-car-4k-2020-om-3840x2160.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Empty ghost train">
+    </div>
+
+<div class="w3-col m3">
+      <img src="https://wallpaperaccess.com/full/473239.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Empty ghost train">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="https://wallpaperaccess.com/full/473331.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Sailing">
+    </div>
+    <button class="w3-button w3-padding-large w3-light-grey" style="margin-top:64px"><a href="https://www.google.com/search?q=cars+images&tbm=isch&ved=2ahUKEwiHlveDvpbvAhXVg0sFHXtiA6EQ2-cCegQIABAA&oq=cars+images&gs_lcp=CgNpbWcQAzICCAAyAggAMgIIADICCAAyAggAMgIIADICCAAyAggAMgIIADICCAA6BAgjECc6BAgAEEM6BQgAELEDUJgWWMMyYJs0aABwAHgAgAGrAogBqBGSAQUwLjkuM5gBAKABAaoBC2d3cy13aXotaW1nwAEB&sclient=img&ei=071AYMfgA9WHrtoP-8SNiAo&bih=597&biw=1242">LOAD MORE</a></button>
+  </div>
+</div>
+
+<!-- Modal for full size images on click-->
+<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+  <span class="w3-button w3-large w3-black w3-display-topright" title="Close Modal Image"><i class="fa fa-remove"></i></span>
+  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+    <img id="img01" class="w3-image">
+    <p id="caption" class="w3-opacity w3-large"></p>
+  </div>
+</div>
+
+<!-- Third Parallax Image with Portfolio Text -->
+<div class="bgimg-3 w3-display-container w3-opacity-min">
+  <div class="w3-display-middle">
+     <span class="w3-xxlarge w3-text-white w3-wide">CONTACT</span>
+  </div>
+</div>
+
+<!-- Container (Contact Section) -->
+<div class="w3-content w3-container w3-padding-64" id="contact">
+  <h3 class="w3-center">WHERE WE WORK</h3>
+  <p class="w3-center"><em>I'd love your feedback!</em></p>
+
+  <div class="w3-row w3-padding-32 w3-section">
+    <div class="w3-col m4 w3-container">
+      <img src="https://media.istockphoto.com/photos/got-a-problem-contact-us-picture-id1129113667?k=6&m=1129113667&s=612x612&w=0&h=uw_vb53_uxej3Bn7mh-qZCL_xzKXdAtFL2Piw7IRrYQ=" class="w3-image w3-round" style="width:100%">
+    </div>
+    <div class="w3-col m8 w3-panel">
+      <div class="w3-large w3-margin-bottom">
+        <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Chicago, US<br>
+        <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Phone: +00 151515<br>
+        <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Email: mail@mail.com<br>
+      </div>
+      <p>Swing by for a cup of <i class="fa fa-coffee"></i>, or leave me a note:</p>
+      <form action="contactus" method = "post" >
+        <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+          <div class="w3-half">
+            <input class="w3-input w3-border" type="text" placeholder="Name" required name="name">
+          </div>
+          <div class="w3-half">
+            <input class="w3-input w3-border" type="text" placeholder="Email" required name="email">
+          </div>
+        </div>
+        <input class="w3-input w3-border" type="text" placeholder="Message" required name="message">
+        <button class="w3-button w3-black w3-right w3-section" type="submit">
+          <i class="fa fa-paper-plane"></i> SEND MESSAGE
+        </button>
+      </form>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
+  <a href="#home" class="w3-button w3-light-gray"><i class="fa fa-arrow-up w3-margin-right"></i>To The Home</a>
+  <div class="w3-xlarge w3-section">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+  </div>
+  <p>Powered by <a href="https://itchronicles.com/technology/what-is-engineering-technology/#:~:text=Engineering%20technology%20may%20be%20described,engineer's%20idea%20into%20practical%20reality." title="W3.CSS" target="_blank" class="w3-hover-text-cyan">engineering</a></p>
+</footer>
+ 
+<script>
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+// Change style of navbar on scroll
+window.onscroll = function() {myFunction()};
+function myFunction() {
+    var navbar = document.getElementById("myNavbar");
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+        navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-white";
+    } else {
+        navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-white", "");
+    }
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function toggleFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else {
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+</script>
+
+</body>
+</html>  
